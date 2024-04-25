@@ -65,7 +65,7 @@ label_posty_szczegoly_obiektu_wartosc = Label(ramka_szczegoly_obiektu, text="...
 label_lokalizacja_szczegoly_obiektu_wartosc = Label(ramka_szczegoly_obiektu, text="...")
 
 label_szczegoly_obiektu.grid(row=0, column=0, sticky=W)
-label_imie_szczegoly_obiektu.grid(row=1, column=0)
+label_imie_szczegoly_obiektu.grid(row=1, column=0, sticky=W)
 label_imie_szczegoly_obiektu_wartosc.grid(row=1, column=1)
 label_nazwisko_szczegoly_obiektu.grid(row=1, column=2)
 label_nazwisko_szczegoly_obiektu_wartosc.grid(row=1, column=3)
